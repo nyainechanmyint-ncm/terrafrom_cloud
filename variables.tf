@@ -22,6 +22,6 @@ type = string
 #type = string
 #}
 
-variable "instance_type" {
+variable "instance_name" {
 type = string
 }
