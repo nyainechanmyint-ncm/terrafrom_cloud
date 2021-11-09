@@ -14,8 +14,8 @@ module "ec2_instance" {
   instance_type          = "t2.micro"
   key_name               = "user1"
   monitoring             = true
-  vpc_security_group_ids = ["sg-12345678"]
-  subnet_id              = "subnet-eddcdzz4"
+  vpc_security_group_ids = ["vpc-9c5ea6e1"]
+  subnet_id              = "subnet-7a413e37"
   #source_ami_region = "ap-southeast-1"
 
   tags = {
