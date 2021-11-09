@@ -10,6 +10,7 @@ module "ec2_instance" {
   monitoring             = true
   vpc_security_group_ids = ["sg-12345678"]
   subnet_id              = "subnet-eddcdzz4"
+  source_ami_region = "ap-southeast-1"
 
   tags = {
     Terraform   = "true"
