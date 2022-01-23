@@ -14,8 +14,8 @@ module "ec2_instance" {
   instance_type          = "t2.micro"
   key_name               = "ncm_us"
   monitoring             = true
-  vpc_security_group_ids = ["sg-e48461db"]
-  subnet_id              = "subnet-7a413e37"
+  vpc_security_group_ids = ["sg-0fc1e87b"]
+  subnet_id              = "subnet-0aed3b6c"
   #source_ami_region = "ap-southeast-1"
 
   tags = {
