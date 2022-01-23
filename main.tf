@@ -10,7 +10,7 @@ module "ec2_instance" {
 
   name = "single-instance"
 
-  ami                    = "ami-06fb6b98af3176846"
+  ami                    = "ami-055d15d9cfddf7bd3"
   instance_type          = "t2.micro"
   key_name               = "ncm_us"
   monitoring             = true
